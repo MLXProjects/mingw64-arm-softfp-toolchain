@@ -1,0 +1,6 @@
+python
+import sys
+sys.path.insert(0, '/home/mlx/x-tools/HOST-x86_64-w64-mingw32/arm-linux-gnueabi/share/gcc-9.5.0/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
